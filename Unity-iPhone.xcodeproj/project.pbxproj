@@ -123,6 +123,16 @@
 		8AF7756017997D2700341121 /* AppDelegateListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7755F17997D1300341121 /* AppDelegateListener.mm */; };
 		8EEB4CA4A51649781D16D392 /* Il2CppGenericMethodTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F6240A5A6606FD753E4B6CB /* Il2CppGenericMethodTable.cpp */; };
 		91014F49BD1D35392D897EBD /* Bulk_Mono.Security_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DFB4A2E81A8277558DFD8FC /* Bulk_Mono.Security_1.cpp */; };
+		92B5D8C020EA94110089404A /* AerServSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B5D8BF20EA94110089404A /* AerServSDK.framework */; };
+		92B5D8C220EA95AF0089404A /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B5D8C120EA95AE0089404A /* libxml2.2.tbd */; };
+		92B5D8D520EA99040089404A /* AerServCustomEventBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5D8C420EA99040089404A /* AerServCustomEventBanner.m */; };
+		92B5D8D620EA99040089404A /* AerServCustomNativeAdRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5D8C820EA99040089404A /* AerServCustomNativeAdRenderer.m */; };
+		92B5D8D720EA99040089404A /* AerServCustomEventNativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5D8CA20EA99040089404A /* AerServCustomEventNativeAd.m */; };
+		92B5D8D820EA99040089404A /* AerServCustomNativeAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5D8CB20EA99040089404A /* AerServCustomNativeAdAdapter.m */; };
+		92B5D8D920EA99040089404A /* AerServCustomNativeAdRendererSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5D8CD20EA99040089404A /* AerServCustomNativeAdRendererSettings.m */; };
+		92B5D8DA20EA99040089404A /* AerServCustomEventUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5D8CE20EA99040089404A /* AerServCustomEventUtils.m */; };
+		92B5D8DB20EA99040089404A /* AerServCustomEventRewardedInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5D8CF20EA99040089404A /* AerServCustomEventRewardedInterstitial.m */; };
+		92B5D8DC20EA99040089404A /* AerServCustomEventInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5D8D020EA99040089404A /* AerServCustomEventInterstitial.m */; };
 		92BC4A34A5B765BA7D88B03B /* Bulk_mscorlib_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2A84EACB6CEA8EFF30EFE4C /* Bulk_mscorlib_7.cpp */; };
 		931F44AD93479FF0298A5EB9 /* Bulk_UnityEngine.Advertisements.iOS_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 994D4BC1ADAD261D128A46F1 /* Bulk_UnityEngine.Advertisements.iOS_0.cpp */; };
 		941E47AAB3E4A93529522806 /* Bulk_UnityEngine.AudioModule_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 495B45A6AE6DF756798F5CB4 /* Bulk_UnityEngine.AudioModule_0.cpp */; };
@@ -390,6 +400,24 @@
 		8DFB4A2E81A8277558DFD8FC /* Bulk_Mono.Security_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_Mono.Security_1.cpp; path = Classes/Native/Bulk_Mono.Security_1.cpp; sourceTree = SOURCE_ROOT; };
 		8FE34A55AF46496392F1BC4F /* Il2CppGenericClassTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericClassTable.cpp; path = Classes/Native/Il2CppGenericClassTable.cpp; sourceTree = SOURCE_ROOT; };
 		90AA44CDB04BD567B9A496BB /* GenericMethods2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods2.cpp; path = Classes/Native/GenericMethods2.cpp; sourceTree = SOURCE_ROOT; };
+		92B5D8BF20EA94110089404A /* AerServSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AerServSDK.framework; sourceTree = "<group>"; };
+		92B5D8C120EA95AE0089404A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		92B5D8C420EA99040089404A /* AerServCustomEventBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomEventBanner.m; sourceTree = "<group>"; };
+		92B5D8C620EA99040089404A /* AerServCustomEventNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomEventNativeAd.h; sourceTree = "<group>"; };
+		92B5D8C720EA99040089404A /* AerServCustomNativeAdAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomNativeAdAdapter.h; sourceTree = "<group>"; };
+		92B5D8C820EA99040089404A /* AerServCustomNativeAdRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomNativeAdRenderer.m; sourceTree = "<group>"; };
+		92B5D8C920EA99040089404A /* AerServCustomNativeAdRendererSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomNativeAdRendererSettings.h; sourceTree = "<group>"; };
+		92B5D8CA20EA99040089404A /* AerServCustomEventNativeAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomEventNativeAd.m; sourceTree = "<group>"; };
+		92B5D8CB20EA99040089404A /* AerServCustomNativeAdAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomNativeAdAdapter.m; sourceTree = "<group>"; };
+		92B5D8CC20EA99040089404A /* AerServCustomNativeAdRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomNativeAdRenderer.h; sourceTree = "<group>"; };
+		92B5D8CD20EA99040089404A /* AerServCustomNativeAdRendererSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomNativeAdRendererSettings.m; sourceTree = "<group>"; };
+		92B5D8CE20EA99040089404A /* AerServCustomEventUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomEventUtils.m; sourceTree = "<group>"; };
+		92B5D8CF20EA99040089404A /* AerServCustomEventRewardedInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomEventRewardedInterstitial.m; sourceTree = "<group>"; };
+		92B5D8D020EA99040089404A /* AerServCustomEventInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AerServCustomEventInterstitial.m; sourceTree = "<group>"; };
+		92B5D8D120EA99040089404A /* AerServCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomEventBanner.h; sourceTree = "<group>"; };
+		92B5D8D220EA99040089404A /* AerServCustomEventUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomEventUtils.h; sourceTree = "<group>"; };
+		92B5D8D320EA99040089404A /* AerServCustomEventRewardedInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomEventRewardedInterstitial.h; sourceTree = "<group>"; };
+		92B5D8D420EA99040089404A /* AerServCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AerServCustomEventInterstitial.h; sourceTree = "<group>"; };
 		960391211D6CE46E003BF157 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		963047B8AD71683D4BB521A4 /* Bulk_Generics_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_Generics_3.cpp; path = Classes/Native/Bulk_Generics_3.cpp; sourceTree = SOURCE_ROOT; };
 		96BC472AB1B8E7324A7B27CB /* Il2CppCompilerCalculateTypeValues_10Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_10Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_10Table.cpp; sourceTree = SOURCE_ROOT; };
@@ -457,10 +485,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B5D8C220EA95AF0089404A /* libxml2.2.tbd in Frameworks */,
+				5DE3480DB17CAF817F9877D8 /* WebKit.framework in Frameworks */,
 				5BAD78611F2B5A59006103DE /* Security.framework in Frameworks */,
 				960391221D6CE46E003BF157 /* MediaToolbox.framework in Frameworks */,
 				00000000008063A1000160D3 /* libiPhone-lib.a in Frameworks */,
 				AA5D99871AFAD3C800B27605 /* CoreText.framework in Frameworks */,
+				92B5D8C020EA94110089404A /* AerServSDK.framework in Frameworks */,
 				8358D1B80ED1CC3700E3A684 /* AudioToolbox.framework in Frameworks */,
 				7F36C11313C5C673007FBDD9 /* AVFoundation.framework in Frameworks */,
 				56FD43960ED4745200FE3770 /* CFNetwork.framework in Frameworks */,
@@ -490,7 +521,6 @@
 				75EB48078B35FB2BBC95C625 /* MessageUI.framework in Frameworks */,
 				03B841F6981AB0F43B1ACC4D /* PassKit.framework in Frameworks */,
 				A879462DBED18106BD32B9E9 /* SafariServices.framework in Frameworks */,
-				5DE3480DB17CAF817F9877D8 /* WebKit.framework in Frameworks */,
 				C2BD4CE9A70E8D255339283E /* Metal.framework in Frameworks */,
 				34B64D5682FD1890A57512A9 /* libz.dylib in Frameworks */,
 				E5584EEF9AD8285F103D46EB /* libsqlite3.dylib in Frameworks */,
@@ -543,6 +573,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92B5D8C120EA95AE0089404A /* libxml2.2.tbd */,
+				92B5D8BF20EA94110089404A /* AerServSDK.framework */,
 				5BAD78601F2B5A59006103DE /* Security.framework */,
 				960391211D6CE46E003BF157 /* MediaToolbox.framework */,
 				AA5D99861AFAD3C800B27605 /* CoreText.framework */,
@@ -700,7 +732,8 @@
 			children = (
 				FA474D0488F305BC561B7E61 /* iOS */,
 			);
-			path = Plugins;
+			name = Plugins;
+			path = Libraries/Plugins;
 			sourceTree = "<group>";
 		};
 		8A3EDDC51615B7C1001839E9 /* UI */ = {
@@ -791,6 +824,37 @@
 			path = Unity;
 			sourceTree = "<group>";
 		};
+		92B5D8C320EA99040089404A /* AerServCustomEvents */ = {
+			isa = PBXGroup;
+			children = (
+				92B5D8C420EA99040089404A /* AerServCustomEventBanner.m */,
+				92B5D8C520EA99040089404A /* Native */,
+				92B5D8CE20EA99040089404A /* AerServCustomEventUtils.m */,
+				92B5D8CF20EA99040089404A /* AerServCustomEventRewardedInterstitial.m */,
+				92B5D8D020EA99040089404A /* AerServCustomEventInterstitial.m */,
+				92B5D8D120EA99040089404A /* AerServCustomEventBanner.h */,
+				92B5D8D220EA99040089404A /* AerServCustomEventUtils.h */,
+				92B5D8D320EA99040089404A /* AerServCustomEventRewardedInterstitial.h */,
+				92B5D8D420EA99040089404A /* AerServCustomEventInterstitial.h */,
+			);
+			path = AerServCustomEvents;
+			sourceTree = "<group>";
+		};
+		92B5D8C520EA99040089404A /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				92B5D8C620EA99040089404A /* AerServCustomEventNativeAd.h */,
+				92B5D8C720EA99040089404A /* AerServCustomNativeAdAdapter.h */,
+				92B5D8C820EA99040089404A /* AerServCustomNativeAdRenderer.m */,
+				92B5D8C920EA99040089404A /* AerServCustomNativeAdRendererSettings.h */,
+				92B5D8CA20EA99040089404A /* AerServCustomEventNativeAd.m */,
+				92B5D8CB20EA99040089404A /* AerServCustomNativeAdAdapter.m */,
+				92B5D8CC20EA99040089404A /* AerServCustomNativeAdRenderer.h */,
+				92B5D8CD20EA99040089404A /* AerServCustomNativeAdRendererSettings.m */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
 		999475211A7BC3B100178130 /* UnityAds */ = {
 			isa = PBXGroup;
 			children = (
@@ -814,6 +878,7 @@
 		D82DCFB50E8000A5005D6AD8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				92B5D8C320EA99040089404A /* AerServCustomEvents */,
 				999475211A7BC3B100178130 /* UnityAds */,
 				8A5C148F174E662D0006EB36 /* PluginBase */,
 				8A3EDDC51615B7C1001839E9 /* UI */,
@@ -998,6 +1063,8 @@
 				D82DCFC30E8000A5005D6AD8 /* main.mm in Sources */,
 				8A793A081ED43EE100B44EF1 /* UnityViewControllerBase+iOS.mm in Sources */,
 				D8A1C7280E80637F000160D3 /* RegisterMonoModules.cpp in Sources */,
+				92B5D8D920EA99040089404A /* AerServCustomNativeAdRendererSettings.m in Sources */,
+				92B5D8D820EA99040089404A /* AerServCustomNativeAdAdapter.m in Sources */,
 				8AA568AE1827DD79004969C7 /* WWWConnection.mm in Sources */,
 				56DBF99D15E3CDC9007A4A8D /* iPhone_Sensors.mm in Sources */,
 				8A3EDDC81615B7C1001839E9 /* SplashScreen.mm in Sources */,
@@ -1008,6 +1075,7 @@
 				8AA5D80217ABE9AF007B9910 /* UnityAppController+Rendering.mm in Sources */,
 				8A142DC61636943E00DD87CA /* Keyboard.mm in Sources */,
 				8A0FED491649699200E9727D /* EAGLContextHelper.mm in Sources */,
+				92B5D8DC20EA99040089404A /* AerServCustomEventInterstitial.m in Sources */,
 				AAFE69D219F187C200638316 /* UnityViewControllerListener.mm in Sources */,
 				8A1FFFAD16512A9000DD0934 /* GlesHelper.mm in Sources */,
 				848031E11C5160D700FCEAB7 /* UnityReplayKit_Scripting.mm in Sources */,
@@ -1035,6 +1103,7 @@
 				8AF7756017997D2700341121 /* AppDelegateListener.mm in Sources */,
 				FC0B20A21B7A4F0B00FDFC55 /* OnDemandResources.mm in Sources */,
 				AAC3E38D1A68945900F6174A /* RegisterFeatures.cpp in Sources */,
+				92B5D8D720EA99040089404A /* AerServCustomEventNativeAd.m in Sources */,
 				84DC28F61C5137FE00BC67D7 /* UnityReplayKit.mm in Sources */,
 				8ACB801C177081D4005D0019 /* DeviceSettings.mm in Sources */,
 				03F528631B447098000F4FB8 /* Il2CppOptions.cpp in Sources */,
@@ -1077,6 +1146,7 @@
 				1C684CECBEAC2819EEF13E9F /* Bulk_mscorlib_6.cpp in Sources */,
 				92BC4A34A5B765BA7D88B03B /* Bulk_mscorlib_7.cpp in Sources */,
 				7790415496085F4A635D7235 /* Bulk_mscorlib_8.cpp in Sources */,
+				92B5D8D620EA99040089404A /* AerServCustomNativeAdRenderer.m in Sources */,
 				F3C543BF8DFDA8C908371B10 /* Bulk_mscorlib_9.cpp in Sources */,
 				100A487998346748A32D7C53 /* GenericMethods0.cpp in Sources */,
 				C27F432A93A7FA66C21EE8DA /* GenericMethods1.cpp in Sources */,
@@ -1097,6 +1167,8 @@
 				D778405A9868BA41BD344570 /* Il2CppCompilerCalculateTypeValues_19Table.cpp in Sources */,
 				12304E90A9AD3B066387A507 /* Il2CppCompilerCalculateTypeValues_1Table.cpp in Sources */,
 				492C4F1CA88EC6F4543FBD6D /* Il2CppCompilerCalculateTypeValues_20Table.cpp in Sources */,
+				92B5D8DB20EA99040089404A /* AerServCustomEventRewardedInterstitial.m in Sources */,
+				92B5D8D520EA99040089404A /* AerServCustomEventBanner.m in Sources */,
 				CC78418091A29715552ED3FC /* Il2CppCompilerCalculateTypeValues_2Table.cpp in Sources */,
 				FC30435DB43288A18BDBC8A0 /* Il2CppCompilerCalculateTypeValues_3Table.cpp in Sources */,
 				EC4049A1861D099470055896 /* Il2CppCompilerCalculateTypeValues_4Table.cpp in Sources */,
@@ -1117,6 +1189,7 @@
 				2A7F434DB29529D656F74FAA /* Il2CppMetadataUsage.cpp in Sources */,
 				0ABA4EEFB22E9714A5C5A858 /* Il2CppMethodPointerTable.cpp in Sources */,
 				DB82476EB833ECC6E8440661 /* Il2CppReversePInvokeWrapperTable.cpp in Sources */,
+				92B5D8DA20EA99040089404A /* AerServCustomEventUtils.m in Sources */,
 				B9E146F78FBACF7B0FA508BF /* Il2CppTypeDefinitions.cpp in Sources */,
 				569143869BDA5B6122209192 /* UnityClassRegistration.cpp in Sources */,
 				01FE4605AD9F9E0C8526552E /* UnityICallRegistration.cpp in Sources */,
@@ -1180,6 +1253,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
@@ -1197,7 +1271,7 @@
 					"$(SRCROOT)/Libraries/libil2cpp/include",
 				);
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1257,6 +1331,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS",
+					"$(PROJECT_DIR)",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1271,7 +1346,7 @@
 					"$(SRCROOT)/Libraries/libil2cpp/include",
 				);
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1463,6 +1538,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS",
+					"$(PROJECT_DIR)",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1477,7 +1553,7 @@
 					"$(SRCROOT)/Libraries/libil2cpp/include",
 				);
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1609,6 +1685,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS",
+					"$(PROJECT_DIR)",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1623,7 +1700,7 @@
 					"$(SRCROOT)/Libraries/libil2cpp/include",
 				);
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

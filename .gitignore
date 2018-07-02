@@ -1,6 +1,8 @@
 Temp/
 obj/
 Library/
+
+build/
 .DS_Store
 *.csproj
 *.pidb

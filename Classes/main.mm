@@ -1,6 +1,8 @@
 #include "RegisterMonoModules.h"
 #include "RegisterFeatures.h"
 #include <csignal>
+#import <AerServSDK/AerServSDK.h>
+
 
 // Hack to work around iOS SDK 4.3 linker problem
 // we need at least one __TEXT, __const section entry in main application .o files
@@ -23,6 +25,9 @@ int main(int argc, char* argv[])
         RegisterMonoModules();
         NSLog(@"-> registered mono modules %p\n", &constsection);
         RegisterFeatures();
+        
+        // INITIALIZE THE AERSERV SDK
+        [AerServSDK initializeWithAppID:@"1000473"]; // replace 1000473 with your appliciation's App ID
 
         // iOS terminates open sockets when an application enters background mode.
         // The next write to any of such socket causes SIGPIPE signal being raised,
